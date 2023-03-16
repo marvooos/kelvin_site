@@ -1,9 +1,11 @@
 body {
     font-family: 'Poppins', sans-serif;
     width: 1600px;
+    margin: auto;
 }
 .container {
     width: 1600px;
+    margin: auto;
 }
 .header {
     background: #F1F1F1;
@@ -145,6 +147,7 @@ body {
 }
 
 .block-protfolio a{
+    text-decoration:  underline;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
@@ -197,6 +200,8 @@ body {
 .btn-contact{ margin-left: 81px; }
 .btn-contact button {
     border-radius: 25px;
+    color: white;
+    border: none;
     background: #070707;
     /* padding-top: 7px;
     padding-left: 22px;
@@ -209,7 +214,6 @@ body {
     line-height: 27px;
     text-align: center; 
     margin-bottom: 80px;
-    color: #ffffffe6;
 }
 
 .block-images {margin-bottom: 40px;}
@@ -394,9 +398,6 @@ body {
     padding-top: 50px;
     padding-bottom: 60px;
     padding-right: 30px;
-}
-.contacts {
-
 }
 .contacts h3{
     margin-bottom: 20px;
